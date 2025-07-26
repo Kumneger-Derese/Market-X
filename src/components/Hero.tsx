@@ -3,13 +3,13 @@ import HeroImage from '../assets/Marketx-Hero.png'
 
 
 const LightLine = ({ percent }: { percent: number }) => {
-  return <div className={`bg-blue-200 rounded-md h-2.5 w-[${percent}%]`} />
+  return <div style={{ width: `${percent}%` }} className={`bg-blue-200 rounded-md h-2.5`} />
 }
 const LightLineColor = ({ percent }: { percent: number }) => {
   return (
     <div className="relative pb-4">
-      <div className={`bg-blue-200 absolute rounded-md h-2.5 w-[100%]`} />
-      <div className={`bg-primary absolute rounded-md h-2.5 w-[${percent}%]`} />
+      <div style={{ width: '100%' }} className={`bg-blue-200 absolute rounded-md h-2.5`} />
+      <div style={{ width: `${percent}%` }} className={`bg-primary absolute rounded-md h-2.5`} />
     </div>
   )
 }
