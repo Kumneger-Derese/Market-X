@@ -1,69 +1,117 @@
-# React + TypeScript + Vite
+# 🚀 Market-X — Digital Marketing Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Status](https://img.shields.io/badge/status-complete-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-Currently, two official plugins are available:
+Market-X is a modern, responsive, and SEO-optimized website tailored for digital marketing agencies. It combines sleek design, robust performance, and delightful user experience — designed to captivate clients and elevate your agency’s digital presence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📑 Table of Contents
+- [📖 About The Project](#about-the-project)
+- [✨ Features](#features)
+- [🛠 Technologies Used](#technologies-used)
+- [⚡ Getting Started](#getting-started)
+  - [📋 Prerequisites](#prerequisites)
+  - [⚙️ Installation](#installation)
+- [🚀 Usage](#usage)
+- [🤝 Contributing](#contributing)
+- [📄 License](#license)
+- [📬 Contact](#contact)
+- [🙏 Acknowledgements](#acknowledgements)
+- [🌐 Live Demo](#live-demo)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📖 About The Project
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+**Market-X** is a comprehensive online showcase for marketing agencies, crafted with attention to design excellence, performance, and usability. It demonstrates expertise in:
+- Responsive design
+- Advanced UI/UX implementation
+- Smooth animations & transitions
+- SEO best practices for organic visibility
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## ✨ Features
+
+✅ **Service Showcase** — Highlighting agency services and solutions  
+🌙 **Light/Dark Mode Toggle** — Personalized viewing experience  
+📱 **Fully Responsive Design** — Optimized for mobile, tablet, and desktop  
+🔍 **SEO Optimized** — Structured for maximum search visibility  
+🎞 **Smooth Animations** — Dynamic UI using Framer Motion  
+🎨 **Clean & Modern UI/UX** — Intuitive navigation & sleek design
+
+---
+
+## 🛠 Technologies Used
+
+### 🖥️ Frontend:
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Yarn](https://yarnpkg.com/)
+
+### 🌐 Other:
+- HTML5
+- CSS3
+
+---
+
+## ⚡ Getting Started
+
+Follow these instructions to run the project locally.
+
+### 📋 Prerequisites
+Make sure you have **Node.js** and **Yarn** installed.
+```bash
+npm install npm@latest -g
+npm install -g yarn
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ⚙️ Installation
+1.Clone the repository:
+```bash
+git clone https://github.com/Kumneger-Derese/Market-X.git
 ```
+2.Navigate into the project directory:
+```bash
+cd Market-X
+```
+3.Install dependencies:
+```bash
+yarn install
+```
+4.Start the development server:
+```bash
+yarn dev
+```
+-The app will be running at http://localhost:5173.
+
+## Usage
+
+This project is a static marketing agency website. Once the development server is running or the project is deployed, you can browse through the different sections to see the services offered, switch between light and dark modes, and observe its responsiveness across various devices.
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+
+## Contact
+
+- Kumneger Derese - kumnegerderese1@gmail.com
+- Project Link: [https://github.com/Kumneger-Derese/Market-X](https://github.com/Kumneger-Derese/Market-X)
+
+🌐 Live Demo: [https://market-x-iota.vercel.app/](https://market-x-iota.vercel.app/)
+
